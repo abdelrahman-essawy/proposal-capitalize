@@ -39,14 +39,14 @@ The capitalize() method will be compatible with the existing String object and w
 ## Considerations
 - This proposal introduces a new method to the String.prototype object, which may require implementation changes in browsers and other ECMAScript engines.
 - The implementation should adhere to the ECMAScript specification and be compatible with existing language features.
-- The capitalize() method should be thoroughly tested to ensure it works as intended and doesn't introduce any bugs.
+- The `capitalize()` method should be thoroughly tested to ensure it works as intended and doesn't introduce any bugs.
 
 ## Alternatives
-- Use a regular expression or custom function to implement the capitalize() functionality.
-- Use an external library or utility function to provide the capitalize() functionality.
+- Use a regular expression or custom function to implement the `capitalize()` functionality.
+- Use an external library or utility function to provide the `capitalize()` functionality.
 
 ## Prior Art
-The capitalize() function is a common string manipulation function that is available in many programming languages and libraries, including Python, Ruby, and Java. It is also available in popular JavaScript libraries and frameworks, such as lodash and React Native.
+The `capitalize()` function is a common string manipulation function that is available in many programming languages and libraries, including Python, Ruby, and Java. It is also available in popular JavaScript libraries and frameworks, such as lodash and React Native.
 
 ## References
 - [lodash.capitalize](https://lodash.com/docs/4.17.15#capitalize)
